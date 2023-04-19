@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1c1e;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #d3d3d5;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 2.5px;
+  width: 32px;
+  height: 32px;
+}
+
+.bio {
+  background-color: #2f2f31;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.skills li {
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skills li:hover {
+  background-color: #fff;
+  color: #007aff;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.social-media a:hover {
+  color: #007aff;
+}
+
+.projects {
+  margin-top: 10px;
+}
+
+.projects h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  background-color: #2f2f31;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: calc(50% - 20px);
+  margin: 10px;
+}
+
+.project h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.project-date {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #d3d3d5;
+}
+
+.project-description {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+}
